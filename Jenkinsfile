@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Push to Docker Hub') {
             steps {
-                bat 'docker tag registration:v1 akshara4/registration:v1'
+                bat 'docker tag registration:v1 divyasri1282/registration:v1'
                 bat 'docker push divyasri1282/registration:v1'
             }
         }
